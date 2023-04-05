@@ -4,6 +4,7 @@ To run application open file **index.html** in browser.
 ## Add a customer
 1. Fill all fields
 2. Click button "Add"
+
 VAT identification number can not repeat
 
 ## Edit a customer
