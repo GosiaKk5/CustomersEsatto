@@ -51,6 +51,7 @@ function editCustomer(){
 
     let customer = customers.find(customer => customer.vat === vatInput.value );
     if(customer == null){
+        comunicatField.innerHTML = 'There is no customer with the given VAT indentification number';
         return;
     }
 
