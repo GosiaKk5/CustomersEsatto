@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <script src="https://kit.fontawesome.com/191fcab001.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div id="input-container">
+        <form action="#">
+            <h2>CUSTOMER MANAGEMENT</h2>
+            <div id="vat-container" class="inputs">
+                <p>VAT identification number</p>
+                <input type="number" id="vat-input" name="vat" required="true">
+            </div>
+            <div id="name-container" class="inputs">
+                <p>Name</p>
+                <input type="text" id="name-input" name="name" required="true">
+            </div>
+            <div id="address-container" class="inputs">
+                <p>Address</p>
+                <input type="text" id="address-input" name="address" required="true">
+            </div>
+        </form>
+
+        <div id="comunicat-container"></div>
+        
+        <div class="buttons-container">
+            <input type="button" id="add-button" value="Add">
+            <input type="button" id="edit-button" value="Edit">
+            <input type="button" id="delete-button" value="Delete">
+        </div>
+    </div>
+
+    <div id="list-container">
+        <h2>LIST OF CUSTOMERS</h2>
+        <div id = "customers-container">
+            <div id="vat-list"></div>
+            <div id="name-list"></div>
+            <div id="address-list"></div>
+        </div>
+    </div>
+    
+    
+</body>
+</html>
